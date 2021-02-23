@@ -7,6 +7,12 @@ public class FruitGrower : MonoBehaviour
 
     public float growtime;
     public float expireTime;
+    public GameObject apple;
+    public GameObject orange;
+    public GameObject strawberry;
+    public GameObject watermelon;
+
+
     public GameObject fruit;
     public GameObject seed;
 
@@ -14,10 +20,32 @@ public class FruitGrower : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
-    {
+     public void SetFruit(int x) 
+     {
+        switch (x)
+        {
+            case 1:
+                fruit = apple;
+                break;
+            case 2:
+                fruit = orange;
+                break;
+            case 3:
+                fruit = strawberry;
+                break;
+            case 4:
+                fruit = watermelon;
+                break;
+            default:
+                Debug.LogWarning("You must chose an integer 1-4");
+                    break;
+        }
+
+            
         
-    }
+
+        
+     }
 
     // Update is called once per frame
     void Update()
