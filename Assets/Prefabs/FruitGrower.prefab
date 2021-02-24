@@ -206,8 +206,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72affd567e73384eb82d9e0b2e8a47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growtime: 5
-  expireTime: 15
+  growtime: 10
+  expireTime: 20
   apple: {fileID: 6301664669257452527}
   orange: {fileID: 6246493501724073710}
   strawberry: {fileID: 3625279692220523091}
@@ -399,7 +399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6574582637216801512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.84, z: 0}
+  m_LocalPosition: {x: -8.8, y: -0.84, z: -4.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6466591643387736469}

@@ -8,8 +8,8 @@ public class SeedPlanter : MonoBehaviour
     public GameObject planter;
     public GameObject seed;
 
-    [Range(0, 10)]
-    [Tooltip ("speed between 0-10")]
+    [Range(0, 15)]
+    [Tooltip ("speed between 0-15")]
     public int planterSpeed;
 
     public float spawnTime;
