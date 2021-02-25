@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c72affd567e73384eb82d9e0b2e8a47e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growtime: 10
+  growtime: 6.88
   expireTime: 20
   apple: {fileID: 6301664669257452527}
   orange: {fileID: 6246493501724073710}
